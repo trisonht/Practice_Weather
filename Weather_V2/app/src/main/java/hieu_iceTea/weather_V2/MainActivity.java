@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         new DataRepository().getData((weathers, main) -> {
+            //Todo: đang làm đến đây, chờ xíu
             lblResult.setText(weathers.toString() + "\r\n" + main.toString());
         });
 
