@@ -8,6 +8,9 @@ import com.android.volley.toolbox.Volley;
 
 public class VolleyAppController extends Application {
 
+    //Nhớ thêm dòng này trong manifests:
+    //android:name=".controller.VolleyAppController"
+
     private static VolleyAppController instance;
     private RequestQueue requestQueue;
     //private static Context ctx;
